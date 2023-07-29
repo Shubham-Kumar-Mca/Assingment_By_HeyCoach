@@ -7,7 +7,7 @@ const Home = () => {
   // State variables to store products, loading state, and sort order.
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [sortOrder, setSortOrder] = useState("asc")
+  const [sortOrder, setSortOrder] = useState("asc");
 
   // Function to filter products based on text input.
   const filteringProduct = (text) => {
