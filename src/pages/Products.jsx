@@ -1,7 +1,7 @@
 import React from "react";
 import ProductDetails from "../components/productDetails/ProductDetails";
 
-const Meal = () => {
+const Products = () => {
   return (
     <div>
       <ProductDetails />
@@ -9,4 +9,4 @@ const Meal = () => {
   );
 };
 
-export default Meal;
+export default Products;
