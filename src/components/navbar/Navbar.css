@@ -1,0 +1,27 @@
+.nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav .container{
+    border: 2px solid #000;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+}
+.nav .container input{
+    padding: 10px;
+    width: 85%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: #fff;
+}
+.nav .container svg{
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

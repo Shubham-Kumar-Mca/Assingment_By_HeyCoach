@@ -1,0 +1,74 @@
+.dashboard__container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.products__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+select {
+  margin-bottom: 4rem;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+
+
+/* For TV and Extra Large Screen*/
+@media screen and (min-device-width: 1201px) {
+    .dashboard__container {
+      width: 90%;
+    }
+  }
+
+/* For Large Screen and Desktop */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+  .products__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  select {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+/* For Laptop and Small Screen*/
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .products__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  select {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+/* For ipads and Tablet View */
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .products__container {
+    grid-template-columns: 1fr 1fr;
+  }
+  select {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) {
+  .dashboard__container {
+    margin-bottom: 1rem;
+  }
+  .products__container {
+    grid-template-columns: 1fr;
+  }
+
+  select {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+}
