@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import {AiOutlineSearch} from "react-icons/ai"
-import "./Navbar.css"
+import React, { useEffect, useState } from 'react';
+import {AiOutlineSearch} from "react-icons/ai";
+import "./Navbar.css";
 
 const Navbar = ({filteringProduct}) => {
   const [text, setText] = useState("")
