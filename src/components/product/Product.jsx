@@ -1,6 +1,6 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import "./Product.css";
-import { Link } from "react-router-dom";
 
 const Product = ({ id, image, category, title, rating, price }) => {
   return (
