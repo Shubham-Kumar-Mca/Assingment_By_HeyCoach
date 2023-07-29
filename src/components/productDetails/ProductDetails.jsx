@@ -1,6 +1,6 @@
+import { useNavigate, useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import "./ProductDetails.css";
-import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 
 const productDetails = () => {
