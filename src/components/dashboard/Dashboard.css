@@ -3,6 +3,7 @@
   margin: auto;
   margin-bottom: 1rem;
 }
+
 .products__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

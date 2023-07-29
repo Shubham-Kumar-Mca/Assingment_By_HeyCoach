@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./Dashboard.css";
-import axios from "axios";
 import Product from "../product/Product";
+import axios from "axios";
+import "./Dashboard.css";
 
 const Dashboard = ({products, loading, handelSortWithPrice}) => {
 
